@@ -1,5 +1,12 @@
 # Decription
-![Decription](/images/2025-07-28_07-51.png "Exploit")
+![The program that runs the shell code you entered is registered as a service and is working.
+
+mainFunctions other than functions prevent the use of the execve and execveat system calls, and are unrelated to solving.
+
+The location and name of the flag file /home/shell_basic/flag_name_is_loooooong is.
+If you have trouble getting the hang of it, try practicing with the code below first!
+
+The flag format isDH{...}. DH{You must } also include both and certifications.](/images/2025-07-28_07-51.png "Exploit")
 
 ## Source
 
@@ -64,14 +71,15 @@ Ta thấy trong mã nguồn có seccomp_rule_add.
 Ta sử dụng seccomp-tools dump để xem các seccomp nào được phép sử dụng:
 ![Seccomp-tools](images/2025-07-28_08-02.png "Seccomp")
 
-Chỉ cho phép system call hợp lệ là execve (syscall 59) và execveat (syscall 322)
-Tức là có thể execve hoặc execveat
+Chỉ không cho phép system call hợp lệ là execve (syscall 59) và execveat (syscall 322)
+Tức là ngoài execve hoặc execveat thì ta có thể sử dụng những syscall khác.
+
 
 
 "char *shellcode = mmap(NULL, 0x1000, PROT_READ | PROT_WRITE | PROT_EXEC, MAP_PRIVATE | MAP_ANONYMOUS, -1, 0);"
 Đoạn này sẽ cho phép shellcode có quyền read/write/execve.
 
--> bài này sử dụng shellcode chiếm shell.
+-> bài này sử dụng shellcode để open flag.txt read flag, write flag.
 
 #### Solve
 
