@@ -1,12 +1,5 @@
 # Decription
-![The program that runs the shell code you entered is registered as a service and is working.
-
-mainFunctions other than functions prevent the use of the execve and execveat system calls, and are unrelated to solving.
-
-The location and name of the flag file /home/shell_basic/flag_name_is_loooooong is.
-If you have trouble getting the hang of it, try practicing with the code below first!
-
-The flag format isDH{...}. DH{You must } also include both and certifications.](/images/2025-07-28_07-51.png "Exploit")
+![Mô tả](/images/2025-07-28_07-51.png "Exploit")
 
 ## Source
 
