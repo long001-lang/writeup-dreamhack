@@ -10,6 +10,7 @@ Read_cat Func:
 ![](images/read_cat.png)
 
 ### Problem
+```c
 Ta dễ thấy trong hàm main v4 được khai báo 128 bytes mà scanf lại nhập tới 144 bytes.
 -> v5 bị ghì đè.
 
@@ -18,12 +19,12 @@ Mà ta thấy read_cat sẽ mở v5 đọc và in nó ra.
 Hơn nữa trong mô tả ta thấy rằng flag ở trong /home/bof/flag.
 
 -> ghì đè v5 thành /home/bof/flag.
-
+```
 #### Solve
-
+```c
 payload = b'a'*128
 payload +=b'/home/bof/flag'
-
+```
 ![](images/test.png)
 
 Hmm. Tôi sẽ tạo 1 file trong /home/bof/flag trên máy local để test.
