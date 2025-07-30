@@ -62,8 +62,9 @@ void main(int argc, char *argv[]) {
 Ta thấy trong mã nguồn có seccomp_rule_add.
 Đây là hàm để thêm 1 số quy tắc vào . Cho phép ta sử dụng/chặn 1 số syscall.
 Ta sử dụng seccomp-tools dump để xem các seccomp nào được phép sử dụng:
+```
 ![Seccomp-tools](images/2025-07-28_08-02.png "Seccomp")
-
+```c
 Chỉ không cho phép system call hợp lệ là execve (syscall 59) và execveat (syscall 322)
 Tức là ngoài execve hoặc execveat thì ta có thể sử dụng những syscall khác.
 
