@@ -1,6 +1,6 @@
 # Decription
 
-[![](images/decription)](https://dreamhack.io/wargame/challenges/2006)
+[![](images/decription.png)](https://dreamhack.io/wargame/challenges/2006)
 
 # Source
 
