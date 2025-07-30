@@ -1,6 +1,6 @@
 # Decription
 
-![https://dreamhack.io/wargame/challenges/2068](images/2025-07-30_01-30.png)
+[![](images/2025-07-30_01-30.png)](https://dreamhack.io/wargame/challenges/2068)
 
 ## Source
 ```c
