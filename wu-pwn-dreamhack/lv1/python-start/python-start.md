@@ -2,7 +2,7 @@
 
 [![](images/2025-07-30_01-30.png)](https://dreamhack.io/wargame/challenges/2068)
 
-## Source
+# Source
 ```c
 import sys # What's wrong with you, Rootsquare?
 
@@ -27,7 +27,7 @@ else:
     print('Your input is blocked.')
 ```
 
-### Problem
+# Problem
 
 ```c
 Ta thấy rằng mục đích của chương trình này là chặn các đoạn code nhạy cảm trong banned_word.
@@ -36,7 +36,7 @@ open/read/write/system/flag đều bị chặn. Ta không thể trực tiếp g�
 
 Nhưng để ý rằng hàm filter_code chỉ check những từ trong banned_word. Ta có thể nhập theo kiểu ascii/oct/hex để thực hiện yêu cầu mở flag và in ra ngoài.
 ```
-#### Solve
+# Solve
     
 SỬ dụng python để tiến hành thwucj thi open, read, write flag
 
