@@ -2,7 +2,7 @@
 # Description
 ![Description](./images/2025-07-28_07-14.png "Exploit")
 
-## Source
+# Source
 ```c
 #include <stdio.h>
 
@@ -25,11 +25,11 @@ int main(void) {
 }
 ```
 
-### Problem
+# Problem
 Chương trình đọc nội dung từ file /flag và in ra màn hình ngay sau dòng "FLAG : " bằng fwrite().
 Vì không có cơ chế bảo vệ nào (như kiểm tra quyền truy cập hay mã hóa nội dung flag), flag được in ra một cách trực tiếp.
 
-#### Solve
+# Solve
 
 Dùng netcat để connect server 
 

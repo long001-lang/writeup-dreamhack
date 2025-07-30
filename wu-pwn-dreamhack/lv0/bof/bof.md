@@ -1,7 +1,7 @@
 # Decription
 ![](images/bof.png)
 
-## Source
+# Source
 Bài không cho chúng ta source mà chỉ có binary. Dùng ida để dịch ngược.
 
 Main Func:
@@ -9,7 +9,7 @@ Main Func:
 Read_cat Func:
 ![](images/read_cat.png)
 
-### Problem
+# Problem
 ```c
 Ta dễ thấy trong hàm main v4 được khai báo 128 bytes mà scanf lại nhập tới 144 bytes.
 -> v5 bị ghì đè.
@@ -20,7 +20,7 @@ Hơn nữa trong mô tả ta thấy rằng flag ở trong /home/bof/flag.
 
 -> ghì đè v5 thành /home/bof/flag.
 ```
-#### Solve
+# Solve
 ```c
 payload = b'a'*128
 payload +=b'/home/bof/flag'
@@ -36,7 +36,7 @@ Chạy lại script:
 
 Rồi. Connect lên server là lấy flag thật.
 
-#### Full script
+# Full script
 
 ```c
 #!/usr/bin/env python3

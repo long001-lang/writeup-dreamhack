@@ -1,7 +1,7 @@
 # Decription
 ![Decription](images/2025-07-29_10-06.png "baby-bof")
 
-## Source
+# Source
 
 ```c
 // gcc -o baby-bof baby-bof.c -fno-stack-protector -no-pie
@@ -74,7 +74,7 @@ int main ()
 }
 ```
 
-### Problem
+# Problem
 ```c
 Đọc sorce ta thấy rằng bài đọc và in flag trong hàm win. 
 Trong hàm main, địa chỉ hàm win được in ra và in ra 1 loạt các địa chỉ khác từ biến name xuống.
@@ -83,7 +83,7 @@ Hàm scanf không giới hạn số lượng bytes nhập vào nên ta có thể
 ```
 ![Problem](images/2025-07-29_10-16.png "baby-bof")
 
-#### Solve
+# Solve
 ```c
 Tại yêu cầu nhập hex value: nhập địa chỉ của win
 integer count:  a>=16
