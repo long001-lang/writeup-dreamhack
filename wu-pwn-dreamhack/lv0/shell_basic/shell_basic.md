@@ -1,5 +1,5 @@
 # Decription
-![Mô tả](/images/2025-07-28_07-51.png "Exploit")
+![Mô tả](images/2025-07-28_07-51.png "Exploit")
 
 ## Source
 

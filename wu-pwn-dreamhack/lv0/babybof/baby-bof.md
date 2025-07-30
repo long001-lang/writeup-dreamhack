@@ -80,11 +80,11 @@ int main ()
 Trong hàm main, địa chỉ hàm win được in ra và in ra 1 loạt các địa chỉ khác từ biến name xuống.
 Hàm scanf không giới hạn số lượng bytes nhập vào nên ta có thể overflow.
 -> Ghì đè return bằng địa chỉ của win.
-![Problem]('images/2025-07-29_10-16.png "baby-bof")
+![Problem](images/2025-07-29_10-16.png "baby-bof")
 
 #### Solve
 
 Tại yêu cầu nhập hex value: nhập địa chỉ của win
 integer count:  a>=16
-![Exploit]('images/2025-07-29_10-14.png "baby-bof")
+![Exploit](images/2025-07-29_10-14.png "baby-bof")
 
